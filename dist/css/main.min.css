@@ -1,0 +1,12 @@
+/*通用样式*/
+*{margin:0;padding: 0;box-sizing:border-box;color:#666;font-family: Arial, Verdana, 'Microsoft Yahei', 'STHeiti Light', 'Simsun';}
+a{text-decoration: none;}
+ul {list-style-type: none;}
+.tab{display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+    display: -moz-box; /* Firefox 17- */
+    display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+    display: -moz-flex; /* Firefox 18+ */
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    width:100%;height:2.5rem;line-height: 2.5rem;}
+.tab .tab-item{flex:1;text-align: center;}
